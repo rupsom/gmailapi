@@ -1,0 +1,13 @@
+the json is not added in src/main/resources/credentials
+it's need to add before run the project
+
+private static final List<String> SCOPES = Collections.singletonList(GmailScopes.MAIL_GOOGLE_COM);
+private static final String CREDENTIALS_FILE_PATH =  
+    		System.getProperty("user.dir") +
+             File.separator + "src" +
+             File.separator + "main" +
+             File.separator + "resources" +
+             File.separator + "credentials" +
+             File.separator + "rrouthgmailcredentials.json";
+             
+// Here the rrouthgmailcredentials.json is need to run
